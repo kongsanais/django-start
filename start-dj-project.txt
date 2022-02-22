@@ -1,0 +1,26 @@
+------------------------------------
+#1
+pip3 install virtualenv
+#2 
+virtualenv env 
+------------------------------------
+#3
+** dif window,mac **
+env\bin\activate
+env\scripts\activate 
+------------------------------------
+#4 start project 
+django-admin  startproject crashcourse
+django-admin  startproject crashcourse .
+------------------------------------
+#5 run project 
+python manage.py runserver
+python manage.py migrate 
+-------------------------------------
+#6 migrate
+# python manage.py makemigrations 
+# python manage.py migrate
+-------------------------------------
+#7 setup password 
+/admin 
+python manage.py createsuperuser 
